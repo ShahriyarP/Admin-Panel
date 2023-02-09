@@ -51,7 +51,7 @@ const Header = () => {
       {/* hi section */}
       <Box>
         <Typography color={colors.textColor[900]} variant="h3">
-          Hi Everyone!👋
+          Hi Shahriar!👋
         </Typography>
         <Typography variant="h6" color={colors.textColor[600]}>
           Welcome back. nice to see you again.
@@ -91,7 +91,7 @@ const Header = () => {
           sx={{ marginLeft: "10px" }}
           onClick={handleClick}
           alt="Remy Sharp"
-          src="https://material-ui.com/static/images/avatar/5.jpg"
+          src="https://material-ui.com/static/images/avatar/6.jpg"
         />
       </Box>
       <Menu
@@ -131,7 +131,7 @@ const Header = () => {
       >
         {/* menu item */}
         <MenuItem onClick={handleClose}>
-          <Avatar src="https://material-ui.com/static/images/avatar/5.jpg" />{" "}
+          <Avatar src="https://material-ui.com/static/images/avatar/6.jpg" />{" "}
           Profile
         </MenuItem>
         <Divider />
