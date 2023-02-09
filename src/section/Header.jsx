@@ -46,6 +46,7 @@ const Header = () => {
         "& .css-156xqnd-MuiInputBase-input": { fontSize: "16px" },
         "& .css-yz9k0d-MuiInputBase-input": { fontSize: "16px" },
         paddingX: "10px",
+        paddingTop: "5px",
       }}
     >
       {/* hi section */}
@@ -68,8 +69,10 @@ const Header = () => {
           alignItems="center"
           sx={{ backgroundColor: colors.primary[400] }}
         >
-          <SearchIcon sx={{ marginRight: "5px" }} />
           <InputBase size="20px" placeholder="search here..." />
+          <IconButton>
+            <SearchIcon />
+          </IconButton>
         </Box>
         {/* icons */}
         <IconButton>
