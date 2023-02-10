@@ -11,6 +11,7 @@ import Form from "./section/pages/Form";
 import Team from "./section/pages/Team";
 import Setting from "./section/pages/Setting";
 
+
 function App() {
   const [mode, setMode] = useMode();
   const [sideBar, setSideBar] = useState(true)
@@ -24,10 +25,10 @@ function App() {
             <main className="content">
               <Header setSideBar={setSideBar} />
               <Routes>
-                <Route path="/" element={<Dashboard />} />
+                <Route path="./" element={<Dashboard />} />
                 <Route path="/contacts" element={<Contacts />} />
-                <Route path="/form" element={<Form />} />
                 <Route path="/team" element={<Team />} />
+                <Route path="/form" element={<Form />} />
                 <Route path="/faq" element={<Faq />} />
                 <Route path="/setting" element={<Setting />} />
               </Routes>

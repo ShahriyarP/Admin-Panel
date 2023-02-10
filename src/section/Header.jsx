@@ -45,6 +45,16 @@ const Header = () => {
       sx={{
         "& .css-156xqnd-MuiInputBase-input": { fontSize: "16px" },
         "& .css-yz9k0d-MuiInputBase-input": { fontSize: "16px" },
+        "& .css-19g5s1t": {
+          minWidth: "300px",
+          display: "flex",
+          justifyContent: "space-between",
+        },
+        "& .css-k9ocgv": {
+          minWidth: "300px",
+          display: "flex",
+          justifyContent: "space-between",
+        },
         paddingX: "10px",
         paddingTop: "5px",
       }}
@@ -54,7 +64,7 @@ const Header = () => {
         <Typography color={colors.textColor[900]} variant="h3">
           Hi Shahriar!👋
         </Typography>
-        <Typography variant="h6" color={colors.textColor[600]}>
+        <Typography variant="h5" paddingTop="5px" color={colors.textColor[600]}>
           Welcome back. nice to see you again.
         </Typography>
       </Box>
