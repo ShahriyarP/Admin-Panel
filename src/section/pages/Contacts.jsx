@@ -19,6 +19,7 @@ const Contacts = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
+  /* jsonplaceholder get user for table */
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
