@@ -31,7 +31,7 @@ const Form = () => {
     >
       <ToastContainer />
       <HeaderTitle
-        title="CREATE USER"
+        title="Create User"
         description="Create a New User Profile"
       />
 

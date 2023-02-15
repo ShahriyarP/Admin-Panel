@@ -10,6 +10,7 @@ import Faq from "./section/pages/Faq";
 import Form from "./section/pages/Form";
 import Team from "./section/pages/Team";
 import Setting from "./section/pages/Setting";
+import BarChart from "./section/charts/BarChart";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
                 <Route path="/contacts" element={<Contacts />} />
                 <Route path="/team" element={<Team />} />
                 <Route path="/form" element={<Form />} />
+                <Route path="/barchart" element={<BarChart />} />
                 <Route path="/faq" element={<Faq />} />
                 <Route path="/setting" element={<Setting />} />
               </Routes>

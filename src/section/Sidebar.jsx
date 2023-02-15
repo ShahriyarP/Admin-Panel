@@ -70,7 +70,7 @@ const Sidebar = () => {
             onClick={() => setIsCollapsed(!isCollapsed)}
             icon={isCollapsed ? <MenuOutlinedIcon /> : undefined}
             style={{
-              margin: "10px 0 20px 0",
+              margin: "10px 0 10px 0",
               color: colors.textColor[400],
             }}
           >
@@ -83,7 +83,7 @@ const Sidebar = () => {
             )}
             {!isCollapsed && (
               <Box
-                marginY="40px"
+                marginY="10px"
                 display="flex"
                 flexDirection="column"
                 alignItems="center"
@@ -137,6 +137,21 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+            <Typography
+              variant="h6"
+              color={colors.textColor[500]}
+              sx={{ m: "15px 0 5px 20px" }}
+            >
+              {!isCollapsed ? "Charts" : undefined}
+            </Typography>
+            <Item
+              title="Bar Chart"
+              link="./barchart"
+              icon={<TableViewIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+
             <Typography
               variant="h6"
               color={colors.textColor[500]}
