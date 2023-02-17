@@ -1,5 +1,5 @@
 import React from "react";
-import { chartValue as data } from "../../data/chartData";
+import { BarChartValue as data } from "../../data/chartData";
 import { ResponsiveBar } from "@nivo/bar";
 import { Box, useTheme } from "@mui/material";
 import { tokens } from "../../theme";

@@ -1,4 +1,4 @@
-export const chartValue =
+export const BarChartValue =
   [
     {
       "country": "AD",
@@ -104,5 +104,39 @@ export const chartValue =
       "friesColor": "hsl(25, 70%, 50%)",
       "donut": 4,
       "donutColor": "hsl(279, 70%, 50%)"
+    }
+  ]
+
+export const PieChartValue =
+  [
+    {
+      "id": "sass",
+      "label": "sass",
+      "value": 322,
+      "color": "hsl(211, 70%, 50%)"
+    },
+    {
+      "id": "haskell",
+      "label": "haskell",
+      "value": 427,
+      "color": "hsl(289, 70%, 50%)"
+    },
+    {
+      "id": "css",
+      "label": "css",
+      "value": 379,
+      "color": "hsl(35, 70%, 50%)"
+    },
+    {
+      "id": "make",
+      "label": "make",
+      "value": 447,
+      "color": "hsl(13, 70%, 50%)"
+    },
+    {
+      "id": "elixir",
+      "label": "elixir",
+      "value": 176,
+      "color": "hsl(329, 70%, 50%)"
     }
   ]

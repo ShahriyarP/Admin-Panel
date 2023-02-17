@@ -88,7 +88,7 @@ const Sidebar = () => {
                 flexDirection="column"
                 alignItems="center"
               >
-                <img src="../../img/logo.png" width={"60%"} />
+                <img src="../../img/logo.png" width={"40%"} height={"50px"} />
                 <Typography
                   color={colors.textColor[800]}
                   marginX="7px"
@@ -147,6 +147,13 @@ const Sidebar = () => {
             <Item
               title="Bar Chart"
               link="./barchart"
+              icon={<TableViewIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="Pie Chart"
+              link="./piechart"
               icon={<TableViewIcon />}
               selected={selected}
               setSelected={setSelected}
