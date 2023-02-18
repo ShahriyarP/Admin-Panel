@@ -27,7 +27,7 @@ function App() {
             <main className="content">
               <Header setSideBar={setSideBar} />
               <Routes>
-                <Route path="./" element={<Dashboard />} />
+                <Route path="/" element={<Dashboard />} />
                 <Route path="/contacts" element={<Contacts />} />
                 <Route path="/team" element={<Team />} />
                 <Route path="/form" element={<Form />} />
