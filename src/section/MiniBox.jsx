@@ -10,7 +10,6 @@ const MiniBox = ({ icon, header, price }) => {
       display=""
       boxSizing="content-box"
       mx="5px"
-      minWidth="180px"
       flexDirection="column"
       p="15px"
       borderRadius="10px"
@@ -20,7 +19,7 @@ const MiniBox = ({ icon, header, price }) => {
         size="medium"
         sx={{
           color: colors.indigo[900],
-          backgroundColor: colors.textColor[200],
+          backgroundColor: colors.badge[700],
           borderRadius: "7px",
           margin: "5px",
         }}

@@ -14,7 +14,6 @@ const CustomerGender = () => {
       flexDirection="column"
       p="10px"
       boxSizing="content-box"
-      mx="5px"
       width="300px"
       minWidth="220px"
       minHeight="110px"

@@ -12,6 +12,7 @@ import Team from "./section/pages/Team";
 import Setting from "./section/pages/Setting";
 import BarChart from "./section/charts/BarChart";
 import PieChart from "./section/charts/PieChart";
+import TreeMap from "./section/charts/TreeMap";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
                 <Route path="/form" element={<Form />} />
                 <Route path="/barchart" element={<BarChart />} />
                 <Route path="/piechart" element={<PieChart />} />
+                <Route path="/treemap" element={<TreeMap />} />
                 <Route path="/faq" element={<Faq />} />
                 <Route path="/setting" element={<Setting />} />
               </Routes>

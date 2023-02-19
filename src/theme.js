@@ -38,6 +38,10 @@ export const tokens = (mode) => ({
         800: "#dfdfe3",
         900: "#efeff1",
       },
+      badge: {
+        700: '#37474F',
+        200: '#B0BEC5'
+      }
     }
     : {
       primary: {
@@ -73,6 +77,10 @@ export const tokens = (mode) => ({
         800: "#46464a",
         900: "#232325"
       },
+      badge: {
+        700: '#CFD8DC',
+        200: '#37474F',
+      }
     }),
 });
 

@@ -1,7 +1,9 @@
 import React from "react";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import HeaderTitle from "../HeaderTitle";
 import MiniBox from "../MiniBox";
+import Grid from "@mui/material/Grid";
+import BarChart from "../../section/charts/BarChart";
 
 import PaidIcon from "@mui/icons-material/Paid";
 import LocalGroceryStoreIcon from "@mui/icons-material/LocalGroceryStore";
@@ -11,67 +13,42 @@ import CustomerGender from "../CustomerGender";
 
 const Dashboard = () => {
   return (
-    <Box>
+    <>
       <HeaderTitle title="Dashboard" description="welcome to dashboaded" />
-      <Box display="grid" gridTemplateColumns="repeat(6, 1fr)">
-        <Box
-          gridColumn="span 1"
-          display="flex"
-          alignItems="center"
-          justifyContent="center"
-        >
+      <Grid container spacing={2} xs={15}>
+        <Grid item xs={1} sm={12} md={6} lg={3}>
           <MiniBox
             icon={<PaidIcon />}
             header="Total Revenue"
             price="$ 124,200"
           />
-        </Box>
-        <Box
-          gridColumn="span 1"
-          display="flex"
-          alignItems="center"
-          justifyContent="center"
-        >
+        </Grid>
+        <Grid item xs={1} sm={12} md={6} lg={3}>
           <MiniBox
             icon={<LocalGroceryStoreIcon />}
             header="Total Order"
             price="4,655"
           />
-        </Box>
-        <Box
-          gridColumn="span 1"
-          display="flex"
-          alignItems="center"
-          justifyContent="center"
-        >
+        </Grid>
+        <Grid item xs={1} sm={12} md={6} lg={3}>
           <MiniBox
             icon={<GroupsIcon />}
             header="Total Customer"
             price="1,985"
           />
-        </Box>
-        <Box
-          gridColumn="span 1"
-          display="flex"
-          alignItems="center"
-          justifyContent="center"
-        >
+        </Grid>
+        <Grid item xs={1} sm={12} md={6} lg={3}>
           <MiniBox
             icon={<PaymentsIcon />}
             header="Total Expenses"
             price="$ 18,650"
           />
-        </Box>
-        <Box
-          gridColumn="span 2"
-          display="flex"
-          alignItems="center"
-          justifyContent="center"
-        >
-          <CustomerGender />
-        </Box>
+        </Grid>
+      </Grid>
+      <Box width="30vw" height="100px">
+        <BarChart />
       </Box>
-    </Box>
+    </>
   );
 };
 
