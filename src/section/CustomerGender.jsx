@@ -4,6 +4,7 @@ import { tokens } from "../theme";
 
 import FemaleIcon from "@mui/icons-material/Female";
 import MaleIcon from "@mui/icons-material/Male";
+import Divider from "@mui/material/Divider";
 
 const CustomerGender = () => {
   const theme = useTheme();
@@ -14,15 +15,15 @@ const CustomerGender = () => {
       flexDirection="column"
       p="10px"
       boxSizing="content-box"
-      width="300px"
-      minWidth="220px"
+      width="350px"
+      minWidth="300px"
       minHeight="110px"
       alignItems="cenetr"
       justifyContent="center"
       borderRadius="10px"
       sx={{ backgroundColor: colors.primary[400] }}
     >
-      <Typography p="7px" variant="h3">
+      <Typography p="15px" variant="h3">
         Customer Gender
       </Typography>
       <Box
@@ -42,6 +43,7 @@ const CustomerGender = () => {
             </Box>
           </Box>
         </Box>
+        <Divider orientation="vertical" flexItem />
         <Box>
           <Box display="flex">
             <IconButton>

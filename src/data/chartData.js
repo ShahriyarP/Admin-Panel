@@ -142,424 +142,276 @@ export const PieChartValue =
   ]
 
 
-export const TreeMapData = {
-  "name": "nivo",
-  "color": "hsl(126, 70%, 50%)",
-  "children": [
+export const LineChartData =
+  [
     {
-      "name": "viz",
-      "color": "hsl(293, 70%, 50%)",
-      "children": [
+      "id": "japan",
+      "color": "hsl(172, 70%, 50%)",
+      "data": [
         {
-          "name": "stack",
-          "color": "hsl(241, 70%, 50%)",
-          "children": [
-            {
-              "name": "cchart",
-              "color": "hsl(283, 70%, 50%)",
-              "loc": 140767
-            },
-            {
-              "name": "xAxis",
-              "color": "hsl(49, 70%, 50%)",
-              "loc": 91657
-            },
-            {
-              "name": "yAxis",
-              "color": "hsl(358, 70%, 50%)",
-              "loc": 53379
-            },
-            {
-              "name": "layers",
-              "color": "hsl(26, 70%, 50%)",
-              "loc": 120245
-            }
-          ]
+          "x": "plane",
+          "y": 145
         },
         {
-          "name": "ppie",
-          "color": "hsl(219, 70%, 50%)",
-          "children": [
-            {
-              "name": "chart",
-              "color": "hsl(54, 70%, 50%)",
-              "children": [
-                {
-                  "name": "pie",
-                  "color": "hsl(228, 70%, 50%)",
-                  "children": [
-                    {
-                      "name": "outline",
-                      "color": "hsl(65, 70%, 50%)",
-                      "loc": 62166
-                    },
-                    {
-                      "name": "slices",
-                      "color": "hsl(304, 70%, 50%)",
-                      "loc": 720
-                    },
-                    {
-                      "name": "bbox",
-                      "color": "hsl(158, 70%, 50%)",
-                      "loc": 19806
-                    }
-                  ]
-                },
-                {
-                  "name": "donut",
-                  "color": "hsl(212, 70%, 50%)",
-                  "loc": 47805
-                },
-                {
-                  "name": "gauge",
-                  "color": "hsl(227, 70%, 50%)",
-                  "loc": 28067
-                }
-              ]
-            },
-            {
-              "name": "legends",
-              "color": "hsl(94, 70%, 50%)",
-              "loc": 180641
-            }
-          ]
+          "x": "helicopter",
+          "y": 131
+        },
+        {
+          "x": "boat",
+          "y": 164
+        },
+        {
+          "x": "train",
+          "y": 17
+        },
+        {
+          "x": "subway",
+          "y": 270
+        },
+        {
+          "x": "bus",
+          "y": 18
+        },
+        {
+          "x": "car",
+          "y": 22
+        },
+        {
+          "x": "moto",
+          "y": 44
+        },
+        {
+          "x": "bicycle",
+          "y": 201
+        },
+        {
+          "x": "horse",
+          "y": 204
+        },
+        {
+          "x": "skateboard",
+          "y": 218
+        },
+        {
+          "x": "others",
+          "y": 24
         }
       ]
     },
     {
-      "name": "colors",
-      "color": "hsl(278, 70%, 50%)",
-      "children": [
+      "id": "france",
+      "color": "hsl(280, 70%, 50%)",
+      "data": [
         {
-          "name": "rgb",
-          "color": "hsl(157, 70%, 50%)",
-          "loc": 163655
+          "x": "plane",
+          "y": 179
         },
         {
-          "name": "hsl",
-          "color": "hsl(287, 70%, 50%)",
-          "loc": 105497
+          "x": "helicopter",
+          "y": 268
+        },
+        {
+          "x": "boat",
+          "y": 220
+        },
+        {
+          "x": "train",
+          "y": 47
+        },
+        {
+          "x": "subway",
+          "y": 286
+        },
+        {
+          "x": "bus",
+          "y": 101
+        },
+        {
+          "x": "car",
+          "y": 96
+        },
+        {
+          "x": "moto",
+          "y": 113
+        },
+        {
+          "x": "bicycle",
+          "y": 176
+        },
+        {
+          "x": "horse",
+          "y": 134
+        },
+        {
+          "x": "skateboard",
+          "y": 169
+        },
+        {
+          "x": "others",
+          "y": 217
         }
       ]
     },
     {
-      "name": "utils",
-      "color": "hsl(72, 70%, 50%)",
-      "children": [
+      "id": "us",
+      "color": "hsl(340, 70%, 50%)",
+      "data": [
         {
-          "name": "randomize",
-          "color": "hsl(48, 70%, 50%)",
-          "loc": 196529
+          "x": "plane",
+          "y": 230
         },
         {
-          "name": "resetClock",
-          "color": "hsl(24, 70%, 50%)",
-          "loc": 21317
+          "x": "helicopter",
+          "y": 49
         },
         {
-          "name": "noop",
-          "color": "hsl(88, 70%, 50%)",
-          "loc": 103872
+          "x": "boat",
+          "y": 296
         },
         {
-          "name": "tick",
-          "color": "hsl(72, 70%, 50%)",
-          "loc": 52539
+          "x": "train",
+          "y": 58
         },
         {
-          "name": "forceGC",
-          "color": "hsl(7, 70%, 50%)",
-          "loc": 135316
+          "x": "subway",
+          "y": 190
         },
         {
-          "name": "stackTrace",
-          "color": "hsl(271, 70%, 50%)",
-          "loc": 62677
+          "x": "bus",
+          "y": 9
         },
         {
-          "name": "dbg",
-          "color": "hsl(203, 70%, 50%)",
-          "loc": 157801
+          "x": "car",
+          "y": 224
+        },
+        {
+          "x": "moto",
+          "y": 300
+        },
+        {
+          "x": "bicycle",
+          "y": 87
+        },
+        {
+          "x": "horse",
+          "y": 296
+        },
+        {
+          "x": "skateboard",
+          "y": 191
+        },
+        {
+          "x": "others",
+          "y": 20
         }
       ]
     },
     {
-      "name": "generators",
-      "color": "hsl(84, 70%, 50%)",
-      "children": [
+      "id": "germany",
+      "color": "hsl(126, 70%, 50%)",
+      "data": [
         {
-          "name": "address",
-          "color": "hsl(88, 70%, 50%)",
-          "loc": 193859
+          "x": "plane",
+          "y": 43
         },
         {
-          "name": "city",
-          "color": "hsl(27, 70%, 50%)",
-          "loc": 30226
+          "x": "helicopter",
+          "y": 26
         },
         {
-          "name": "animal",
-          "color": "hsl(153, 70%, 50%)",
-          "loc": 103233
+          "x": "boat",
+          "y": 45
         },
         {
-          "name": "movie",
-          "color": "hsl(239, 70%, 50%)",
-          "loc": 182839
+          "x": "train",
+          "y": 167
         },
         {
-          "name": "user",
-          "color": "hsl(177, 70%, 50%)",
-          "loc": 144747
+          "x": "subway",
+          "y": 227
+        },
+        {
+          "x": "bus",
+          "y": 24
+        },
+        {
+          "x": "car",
+          "y": 198
+        },
+        {
+          "x": "moto",
+          "y": 280
+        },
+        {
+          "x": "bicycle",
+          "y": 110
+        },
+        {
+          "x": "horse",
+          "y": 236
+        },
+        {
+          "x": "skateboard",
+          "y": 32
+        },
+        {
+          "x": "others",
+          "y": 156
         }
       ]
     },
     {
-      "name": "set",
-      "color": "hsl(36, 70%, 50%)",
-      "children": [
+      "id": "norway",
+      "color": "hsl(41, 70%, 50%)",
+      "data": [
         {
-          "name": "clone",
-          "color": "hsl(354, 70%, 50%)",
-          "loc": 121750
+          "x": "plane",
+          "y": 143
         },
         {
-          "name": "intersect",
-          "color": "hsl(233, 70%, 50%)",
-          "loc": 155042
+          "x": "helicopter",
+          "y": 137
         },
         {
-          "name": "merge",
-          "color": "hsl(196, 70%, 50%)",
-          "loc": 103688
+          "x": "boat",
+          "y": 171
         },
         {
-          "name": "reverse",
-          "color": "hsl(117, 70%, 50%)",
-          "loc": 118655
+          "x": "train",
+          "y": 184
         },
         {
-          "name": "toArray",
-          "color": "hsl(65, 70%, 50%)",
-          "loc": 24178
+          "x": "subway",
+          "y": 87
         },
         {
-          "name": "toObject",
-          "color": "hsl(110, 70%, 50%)",
-          "loc": 140137
+          "x": "bus",
+          "y": 232
         },
         {
-          "name": "fromCSV",
-          "color": "hsl(247, 70%, 50%)",
-          "loc": 49002
+          "x": "car",
+          "y": 75
         },
         {
-          "name": "slice",
-          "color": "hsl(350, 70%, 50%)",
-          "loc": 97208
+          "x": "moto",
+          "y": 294
         },
         {
-          "name": "append",
-          "color": "hsl(243, 70%, 50%)",
-          "loc": 18873
+          "x": "bicycle",
+          "y": 119
         },
         {
-          "name": "prepend",
-          "color": "hsl(242, 70%, 50%)",
-          "loc": 12086
+          "x": "horse",
+          "y": 187
         },
         {
-          "name": "shuffle",
-          "color": "hsl(316, 70%, 50%)",
-          "loc": 104565
+          "x": "skateboard",
+          "y": 107
         },
         {
-          "name": "pick",
-          "color": "hsl(300, 70%, 50%)",
-          "loc": 155780
-        },
-        {
-          "name": "plouc",
-          "color": "hsl(106, 70%, 50%)",
-          "loc": 17774
-        }
-      ]
-    },
-    {
-      "name": "text",
-      "color": "hsl(304, 70%, 50%)",
-      "children": [
-        {
-          "name": "trim",
-          "color": "hsl(243, 70%, 50%)",
-          "loc": 180120
-        },
-        {
-          "name": "slugify",
-          "color": "hsl(83, 70%, 50%)",
-          "loc": 181814
-        },
-        {
-          "name": "snakeCase",
-          "color": "hsl(7, 70%, 50%)",
-          "loc": 75479
-        },
-        {
-          "name": "camelCase",
-          "color": "hsl(289, 70%, 50%)",
-          "loc": 32357
-        },
-        {
-          "name": "repeat",
-          "color": "hsl(52, 70%, 50%)",
-          "loc": 64397
-        },
-        {
-          "name": "padLeft",
-          "color": "hsl(195, 70%, 50%)",
-          "loc": 15967
-        },
-        {
-          "name": "padRight",
-          "color": "hsl(14, 70%, 50%)",
-          "loc": 54174
-        },
-        {
-          "name": "sanitize",
-          "color": "hsl(19, 70%, 50%)",
-          "loc": 196396
-        },
-        {
-          "name": "ploucify",
-          "color": "hsl(267, 70%, 50%)",
-          "loc": 62491
-        }
-      ]
-    },
-    {
-      "name": "misc",
-      "color": "hsl(198, 70%, 50%)",
-      "children": [
-        {
-          "name": "greetings",
-          "color": "hsl(85, 70%, 50%)",
-          "children": [
-            {
-              "name": "hey",
-              "color": "hsl(59, 70%, 50%)",
-              "loc": 55733
-            },
-            {
-              "name": "HOWDY",
-              "color": "hsl(213, 70%, 50%)",
-              "loc": 34367
-            },
-            {
-              "name": "aloha",
-              "color": "hsl(114, 70%, 50%)",
-              "loc": 136935
-            },
-            {
-              "name": "AHOY",
-              "color": "hsl(127, 70%, 50%)",
-              "loc": 4604
-            }
-          ]
-        },
-        {
-          "name": "other",
-          "color": "hsl(346, 70%, 50%)",
-          "loc": 108137
-        },
-        {
-          "name": "path",
-          "color": "hsl(96, 70%, 50%)",
-          "children": [
-            {
-              "name": "pathA",
-              "color": "hsl(284, 70%, 50%)",
-              "loc": 100273
-            },
-            {
-              "name": "pathB",
-              "color": "hsl(38, 70%, 50%)",
-              "children": [
-                {
-                  "name": "pathB1",
-                  "color": "hsl(131, 70%, 50%)",
-                  "loc": 68010
-                },
-                {
-                  "name": "pathB2",
-                  "color": "hsl(301, 70%, 50%)",
-                  "loc": 182571
-                },
-                {
-                  "name": "pathB3",
-                  "color": "hsl(26, 70%, 50%)",
-                  "loc": 81329
-                },
-                {
-                  "name": "pathB4",
-                  "color": "hsl(110, 70%, 50%)",
-                  "loc": 137329
-                }
-              ]
-            },
-            {
-              "name": "pathC",
-              "color": "hsl(262, 70%, 50%)",
-              "children": [
-                {
-                  "name": "pathC1",
-                  "color": "hsl(28, 70%, 50%)",
-                  "loc": 75677
-                },
-                {
-                  "name": "pathC2",
-                  "color": "hsl(309, 70%, 50%)",
-                  "loc": 45560
-                },
-                {
-                  "name": "pathC3",
-                  "color": "hsl(183, 70%, 50%)",
-                  "loc": 60667
-                },
-                {
-                  "name": "pathC4",
-                  "color": "hsl(90, 70%, 50%)",
-                  "loc": 51238
-                },
-                {
-                  "name": "pathC5",
-                  "color": "hsl(75, 70%, 50%)",
-                  "loc": 96459
-                },
-                {
-                  "name": "pathC6",
-                  "color": "hsl(209, 70%, 50%)",
-                  "loc": 115752
-                },
-                {
-                  "name": "pathC7",
-                  "color": "hsl(76, 70%, 50%)",
-                  "loc": 97346
-                },
-                {
-                  "name": "pathC8",
-                  "color": "hsl(84, 70%, 50%)",
-                  "loc": 189644
-                },
-                {
-                  "name": "pathC9",
-                  "color": "hsl(210, 70%, 50%)",
-                  "loc": 48206
-                }
-              ]
-            }
-          ]
+          "x": "others",
+          "y": 137
         }
       ]
     }
   ]
-}

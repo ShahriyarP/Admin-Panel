@@ -12,6 +12,9 @@ import GroupIcon from "@mui/icons-material/Group";
 import TableViewIcon from "@mui/icons-material/TableView";
 import QuizIcon from "@mui/icons-material/Quiz";
 import SettingsSuggestIcon from "@mui/icons-material/SettingsSuggest";
+import PieChartIcon from "@mui/icons-material/PieChart";
+import BarChartIcon from "@mui/icons-material/BarChart";
+import LineChartIcon from "@mui/icons-material/Timeline";
 
 /* create custom item for sidebar */
 const Item = ({ title, link, icon, selected, setSelected }) => {
@@ -147,21 +150,21 @@ const Sidebar = () => {
             <Item
               title="Bar Chart"
               link="./barchart"
-              icon={<TableViewIcon />}
+              icon={<BarChartIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Pie Chart"
               link="./piechart"
-              icon={<TableViewIcon />}
+              icon={<PieChartIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Tree Map Chart"
-              link="./treemap"
-              icon={<TableViewIcon />}
+              title="Line Chart"
+              link="./linechart"
+              icon={<LineChartIcon />}
               selected={selected}
               setSelected={setSelected}
             />

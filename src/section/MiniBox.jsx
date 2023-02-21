@@ -7,7 +7,6 @@ const MiniBox = ({ icon, header, price }) => {
   const colors = tokens(theme.palette.mode);
   return (
     <Box
-      display=""
       boxSizing="content-box"
       mx="5px"
       flexDirection="column"
